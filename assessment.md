@@ -32,7 +32,7 @@ After basic EDA an outlier was found, where the signup date was in 2030. This da
 
 ---
 
-#### Queries to address business tasks
+#### Business task 1
 
 - What is the overall “Sign up Started” -> “Completed Training” conversion rate by week
 (assume the first week starts on 4/1/23 and ends 4/7/23)?
@@ -152,5 +152,45 @@ Query results below:
 
 ---
 
+#### Business task 2
 
+- How has the overall conversion rate changed over time?
 
+---
+
+For this task, I exported the edited dataset for use in Tableau.
+
+The most applicable chart type for this business task would be a line chart to show the conversion rate change over the one month period.
+
+Line Chart below: 
+
+![image](https://github.com/user-attachments/assets/395480dd-5bbb-434b-a81c-ad3ba53c2ac0)
+
+Observations are as follows:
+
+- The conversion rate was substantially higher in weeks 1 and 2, being up at 88% consistently.
+- The conversion rate was lowest during week 3 at 47%, climbing to 66% in week 4.
+- Important to note that although conversion rates are lower for week 3 and 4, the actual count of users converting was drastically higher in weeks 3 and 4.
+
+---
+
+#### Business Task 3
+
+- What is the main reason that the overall conversion rate changed so drastically?
+
+For this question, a stacked bar chart would best display these data.
+
+![image](https://github.com/user-attachments/assets/a340db4d-a8b6-4e7f-b44a-f622e56e8483)
+
+Observations are as follows: 
+
+- Clear peaks of user engagement are observed in weeks 3 and 4 of the month, with email campaigns and paid social media interactions being far higher. This is supported by the conversions showed previously, suggesting a correlation between higher engagement and higher conversions.
+
+---
+
+### Business Task 4
+
+- Only that there is an outlier that contains a date of 2030
+- Other than that I have run out of time! 
+
+  
